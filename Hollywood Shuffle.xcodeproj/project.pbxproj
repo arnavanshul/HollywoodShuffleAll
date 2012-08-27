@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64041A015EBD22C00D91292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A640419F15EBD22C00D91292 /* UIKit.framework */; };
+		A64041A215EBD22C00D91292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64041A115EBD22C00D91292 /* Foundation.framework */; };
+		A64041A415EBD22C00D91292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64041A315EBD22C00D91292 /* CoreGraphics.framework */; };
+		A64041AA15EBD22C00D91292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A64041A815EBD22C00D91292 /* InfoPlist.strings */; };
+		A64041AC15EBD22C00D91292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64041AB15EBD22C00D91292 /* main.m */; };
+		A64041B015EBD22C00D91292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64041AF15EBD22C00D91292 /* AppDelegate.m */; };
+		A64041B315EBD22C00D91292 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64041B115EBD22C00D91292 /* MainStoryboard_iPhone.storyboard */; };
+		A64041B615EBD22C00D91292 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64041B415EBD22C00D91292 /* MainStoryboard_iPad.storyboard */; };
+		A64041B915EBD22C00D91292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64041B815EBD22C00D91292 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A640419B15EBD22C00D91292 /* Hollywood Shuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hollywood Shuffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A640419F15EBD22C00D91292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A64041A115EBD22C00D91292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A64041A315EBD22C00D91292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A64041A715EBD22C00D91292 /* Hollywood Shuffle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hollywood Shuffle-Info.plist"; sourceTree = "<group>"; };
+		A64041A915EBD22C00D91292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A64041AB15EBD22C00D91292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64041AD15EBD22C00D91292 /* Hollywood Shuffle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hollywood Shuffle-Prefix.pch"; sourceTree = "<group>"; };
+		A64041AE15EBD22C00D91292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A64041AF15EBD22C00D91292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A64041B215EBD22C00D91292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A64041B515EBD22C00D91292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A64041B715EBD22C00D91292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A64041B815EBD22C00D91292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A640419815EBD22C00D91292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64041A015EBD22C00D91292 /* UIKit.framework in Frameworks */,
+				A64041A215EBD22C00D91292 /* Foundation.framework in Frameworks */,
+				A64041A415EBD22C00D91292 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A640419015EBD22C00D91292 = {
+			isa = PBXGroup;
+			children = (
+				A64041A515EBD22C00D91292 /* Hollywood Shuffle */,
+				A640419E15EBD22C00D91292 /* Frameworks */,
+				A640419C15EBD22C00D91292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A640419C15EBD22C00D91292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A640419B15EBD22C00D91292 /* Hollywood Shuffle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A640419E15EBD22C00D91292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A640419F15EBD22C00D91292 /* UIKit.framework */,
+				A64041A115EBD22C00D91292 /* Foundation.framework */,
+				A64041A315EBD22C00D91292 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64041A515EBD22C00D91292 /* Hollywood Shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				A64041AE15EBD22C00D91292 /* AppDelegate.h */,
+				A64041AF15EBD22C00D91292 /* AppDelegate.m */,
+				A64041B115EBD22C00D91292 /* MainStoryboard_iPhone.storyboard */,
+				A64041B415EBD22C00D91292 /* MainStoryboard_iPad.storyboard */,
+				A64041B715EBD22C00D91292 /* ViewController.h */,
+				A64041B815EBD22C00D91292 /* ViewController.m */,
+				A64041A615EBD22C00D91292 /* Supporting Files */,
+			);
+			path = "Hollywood Shuffle";
+			sourceTree = "<group>";
+		};
+		A64041A615EBD22C00D91292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64041A715EBD22C00D91292 /* Hollywood Shuffle-Info.plist */,
+				A64041A815EBD22C00D91292 /* InfoPlist.strings */,
+				A64041AB15EBD22C00D91292 /* main.m */,
+				A64041AD15EBD22C00D91292 /* Hollywood Shuffle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A640419A15EBD22C00D91292 /* Hollywood Shuffle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64041BC15EBD22C00D91292 /* Build configuration list for PBXNativeTarget "Hollywood Shuffle" */;
+			buildPhases = (
+				A640419715EBD22C00D91292 /* Sources */,
+				A640419815EBD22C00D91292 /* Frameworks */,
+				A640419915EBD22C00D91292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hollywood Shuffle";
+			productName = "Hollywood Shuffle";
+			productReference = A640419B15EBD22C00D91292 /* Hollywood Shuffle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A640419215EBD22C00D91292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Gruici";
+			};
+			buildConfigurationList = A640419515EBD22C00D91292 /* Build configuration list for PBXProject "Hollywood Shuffle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A640419015EBD22C00D91292;
+			productRefGroup = A640419C15EBD22C00D91292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A640419A15EBD22C00D91292 /* Hollywood Shuffle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A640419915EBD22C00D91292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64041AA15EBD22C00D91292 /* InfoPlist.strings in Resources */,
+				A64041B315EBD22C00D91292 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A64041B615EBD22C00D91292 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A640419715EBD22C00D91292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64041AC15EBD22C00D91292 /* main.m in Sources */,
+				A64041B015EBD22C00D91292 /* AppDelegate.m in Sources */,
+				A64041B915EBD22C00D91292 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A64041A815EBD22C00D91292 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64041A915EBD22C00D91292 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A64041B115EBD22C00D91292 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64041B215EBD22C00D91292 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A64041B415EBD22C00D91292 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64041B515EBD22C00D91292 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64041BA15EBD22C00D91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64041BB15EBD22C00D91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64041BD15EBD22C00D91292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hollywood Shuffle/Hollywood Shuffle-Prefix.pch";
+				INFOPLIST_FILE = "Hollywood Shuffle/Hollywood Shuffle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A64041BE15EBD22C00D91292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hollywood Shuffle/Hollywood Shuffle-Prefix.pch";
+				INFOPLIST_FILE = "Hollywood Shuffle/Hollywood Shuffle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A640419515EBD22C00D91292 /* Build configuration list for PBXProject "Hollywood Shuffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64041BA15EBD22C00D91292 /* Debug */,
+				A64041BB15EBD22C00D91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64041BC15EBD22C00D91292 /* Build configuration list for PBXNativeTarget "Hollywood Shuffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64041BD15EBD22C00D91292 /* Debug */,
+				A64041BE15EBD22C00D91292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A640419215EBD22C00D91292 /* Project object */;
+}
