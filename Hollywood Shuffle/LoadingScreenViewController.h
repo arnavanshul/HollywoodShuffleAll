@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoadingScreenViewController.h
 //  Hollywood Shuffle
 //
 //  Created by Daniel Gruici on 8/27/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LoadingScreenViewController : UIViewController
 
 @end
