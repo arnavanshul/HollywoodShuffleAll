@@ -130,7 +130,6 @@
     obj.actorImageView.image = [UIImage imageNamed:@"cardinhand.png"];
     [obj.actorName setString:@"Keira Knightley on reel"];
     [cardsOnReel addObject:obj];
-    [cardsPlacedThisHand addObject:obj];
     
     //FOR UI TEST PURPOSES; ENDING HERE
         
